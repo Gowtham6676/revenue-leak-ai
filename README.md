@@ -16,3 +16,13 @@ streamlit run app.py
 ## Architecture
 Detect (pandas rules) -> Prioritize (expected value) -> Strategist agent (LLM, JSON) ->
 Writer agent (LLM) -> Guardrail agent (policy) -> Act (outbox) -> Report/Dashboard
+## Screenshots
+
+### Dashboard
+![Dashboard](screenshots/dashboard.png)
+
+### Agent run in terminal
+![Terminal run](screenshots/terminal-run.png)
+
+### Generated report
+![Report](screenshots/report.png)
